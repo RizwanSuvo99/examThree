@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+body{
+	height: 100%;
+	background-image: url(../images/1.jpg);
+	background-size: cover;
+}
+header{
+	overflow: hidden;
+	padding: 20px 70px;
+}
+header .logo{
+	float: left;
+	height: 30px;
+}
+header .nav{
+	float: right;
+}
+.nav ul li{
+	display: inline-block;
+	list-style: none;
+	line-height: 30px;
+	transition: all ease .5s;
+}
+.nav ul li:hover{
+	transform: scale(1.2);
+	background-color: rgba(29,31,33,.7);
+	border-radius: 5px;
+	
+}
+.nav a{
+	text-decoration: none;
+	padding: 10px 20px;
+	color: lightgray;
+	text-transform: uppercase;
+}
+.btn{
+	background-color: #26ABAE;
+	border-radius: 15px 0px;
+}
+.btn:hover{
+	background-color: rgba(29,31,33,.7);
+}
+.mainLeft{
+	width: 50%;
+	float: left;
+	position: relative;
+}
+.mainRight{
+	width: 45%;
+	float: right;
+	position: relative;
+	padding-top: 100px;
+}
+form{
+	width: 70%;
+	margin: 0 auto;
+	background-color: rgba(29,31,33,.2);
+	border-radius: 5px;
+	animation-name: form;
+    animation-duration: 2s;
+    animation-iteration-count: 1; 
+}
+h1,p,h4{
+	text-align: center;
+	padding: 10px;
+	font-size: 40px;
+}
+p{
+	font-size: 20px;
+	color: lightgray;
+}
+.heading{
+	position: absolute;
+	top: 200px;
+	left: 10%;
+}
+.buttons{
+	position: absolute;
+	top: 380px;
+	left: 30%;
+}
+.buttons input{
+	padding: 15px 20px;
+	margin-left: 10px;
+	background-color: rgba(0,170,174,.6);
+	border: none;
+	border-radius: 5px;
+}
+.buttons input:hover{
+	background-color: rgba(29,31,33,.7);
+}
+.buttons input:nth-child(2){
+	background-color: rgba(29,31,33,.2);
+}
+.buttons input:nth-child(2):hover{
+	background-color: rgba(29,31,33,.7);
+}
+h4{
+	font-size: 20px;
+	font-weight: 300;
+	text-align: left;
+}
+.head{
+	background-color: rgba(29,31,33,.5);
+	
+}
+.content{
+	background-color: rgba(29,31,33,.3);
+	padding: 20px 10px;
+}
+.head p{
+	text-align: left;
+}
+.content input{
+	display: block;
+	padding: 20px 10px;
+	width: 100%;
+	height: 50px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 10px;
+	color: black;
+	
+}
+.content .message{
+	height: 150px;
+}
+.btn2{
+	background-color: rgba(0,170,174);
+	font-weight: bold;
+}
+.btn2:hover{
+	background-color: rgba(0,170,174,.3);
+	color: white;
+}
+
+@keyframes form {
+    0% {
+        margin-right: -100%;
+    }
+    100% {
+        margin-right: 0%;
+    }
+}
+
+
+
+
